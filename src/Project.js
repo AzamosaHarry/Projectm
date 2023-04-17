@@ -14,7 +14,7 @@ function Project () {
                         <img src={lines} alt='' className='lines'/>
                         <Parallax 
                             scale={[1, 0.25]}
-                            rotate={[52, -180]}
+                            rotate={[50, -180]}
                             speed={-30}
                             easing="easeInQuad">
                             <img src={lines2} alt='' className='lines2'/>
