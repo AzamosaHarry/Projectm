@@ -13,7 +13,7 @@
     align-items: center;
 }
 .about_body_head h1 {
-    font-size: 150px;
+    font-size: 160px;
     letter-spacing: 50px;
     color: white;
 }
@@ -21,13 +21,14 @@
     padding: 10% 20%;
     text-align: justify;
 }
-.about_body_main > p{
+.about_body_main p{
     line-height: 25px;
+    font-size: 20px;
 }
 
 @media all and (max-width: 1250px) {
     .about_body_head h1 {
-        font-size: 100px;
+        font-size: 110px;
         letter-spacing: 10px;
     }
     .about_body_head {
