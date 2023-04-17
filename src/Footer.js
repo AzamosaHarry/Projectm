@@ -10,7 +10,7 @@ function Footer () {
             <Link to='/'><img src={projectlogo} alt='' className='projectlogo_header' /></Link>
             <div className='footer_div'>
                 <div>
-                    <SlSocialTwitter className='footer_icon one'/>
+                    <Link to='https://twitter.com/ProjectM___'><SlSocialTwitter className='footer_icon one' /></Link>
                     <SlSocialLinkedin className='footer_icon two'/> 
                     <SlSocialInstagram className='footer_icon three'/> 
                 </div>
