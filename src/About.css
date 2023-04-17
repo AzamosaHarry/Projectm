@@ -1,0 +1,40 @@
+.about { 
+    width: 100%;
+    overflow: hidden;
+}
+.about_body {
+    min-height: 100vh;
+}
+.about_body_head {
+    min-height: 30vh;
+    background: #171b1c;
+    padding-left: 15%;
+    display: flex;
+    align-items: center;
+}
+.about_body_head h1 {
+    font-size: 150px;
+    letter-spacing: 50px;
+    color: white;
+}
+.about_body_main {
+    padding: 10% 20%;
+    text-align: justify;
+}
+.about_body_main > p{
+    line-height: 25px;
+}
+
+@media all and (max-width: 1250px) {
+    .about_body_head h1 {
+        font-size: 100px;
+        letter-spacing: 10px;
+    }
+    .about_body_head {
+        height: 40vh;
+    }
+    .about_body_main {
+        padding: 10% 10%;
+        text-align: justify;
+    }
+}
