@@ -23,7 +23,7 @@
     flex-direction: row;
     margin-left: 40px;
     color: #1d293f;
-    font-size: 19px;
+    font-size: 16px;
 }
 .header_nav_list{
     margin: 0 20px;
@@ -88,7 +88,7 @@
 }
 .home_sidebar_link {
     text-decoration: none;
-    font-size: 90px;
+    font-size: 75px;
     color: white;
 }
 @media (orientation: landscape) {
@@ -132,7 +132,7 @@
     }
     .home_sidebar_link {
         text-decoration: none;
-        font-size: 40px;
+        font-size: 30px;
         color: white;
     }
 }
